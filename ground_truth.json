@@ -1,0 +1,122 @@
+{
+  "py01": {
+    "output": "[1]\n[1, 2]\n[3]\n[1, 2, 4]"
+  },
+  "py02": {
+    "output": "[2, 2, 2]\n[0, 1, 2]"
+  },
+  "py03": {
+    "output": "[1, 2, 3, 4] [1, 2, 3, 4] [1, 2, 3, 4, 5]"
+  },
+  "py04": {
+    "output": "True\nTrue\nFalse"
+  },
+  "py05": {
+    "output": "False\n2 4 -2\n2.67"
+  },
+  "py06": {
+    "output": "{1: 'c'} 1"
+  },
+  "py07": {
+    "output": "True True True False\nTrue"
+  },
+  "py08": {
+    "output": "False True True False True\nFalse True"
+  },
+  "py09": {
+    "output": "[0, 1, 4]\n[]\n0"
+  },
+  "py10": {
+    "output": "finally\ncleanup 0\ncleanup 1\ncleanup 2\ndone"
+  },
+  "py11": {
+    "output": "[2, 4]"
+  },
+  "py12": {
+    "output": "error\n([1, 2],)"
+  },
+  "py13": {
+    "output": "-4 1 -4 (-4, 1) -3\n-2 -4.0"
+  },
+  "py14": {
+    "output": "3 2 2\n4 2 9"
+  },
+  "py15": {
+    "output": "['A', 'B', 'a', 'b']\nSS\n2\nFalse True"
+  },
+  "js01": {
+    "output": "object undefined number object\ntrue false false true"
+  },
+  "js02": {
+    "output": "[object Object] 12 2 2\n1,2,3 null1"
+  },
+  "js03": {
+    "output": "[ 1, 10, 9 ]\n[ 100, 20, 3 ]\n[ 3, 20, 100 ]"
+  },
+  "js04": {
+    "output": "0.30000000000000004 false\n9007199254740992 9007199254740992\n9007199254740994n"
+  },
+  "js05": {
+    "output": "var 3\nvar 3\nvar 3\nlet 0\nlet 1\nlet 2"
+  },
+  "js06": {
+    "output": "8 31 NaN 1 1000\n0 12 NaN 12.5"
+  },
+  "js07": {
+    "output": "[ 1, NaN, NaN ]\n[ 1, 2, 3 ]"
+  },
+  "js08": {
+    "output": "false true\ntrue -1\nfalse true"
+  },
+  "js09": {
+    "output": "A\nF\nE\nC\nD\nB"
+  },
+  "js10": {
+    "output": "{} true\ntrue\ntrue"
+  },
+  "js11": {
+    "output": "{ a: 1, nested: { b: 99 } } { a: 2, nested: { b: 99 } }"
+  },
+  "js12": {
+    "output": "5 2 1 2\n2 1 false true"
+  },
+  "js13": {
+    "output": "-Infinity Infinity true baNaNa\ntrue true true true"
+  },
+  "js14": {
+    "output": "a 0 null \nundefined undefined NaN false"
+  },
+  "js15": {
+    "output": "[ 1, <2 empty items>, 4 ] 4 false -1 true"
+  },
+  "sql01": {
+    "output": "-- SELECT NULL = NULL, NULL IS NULL, 1 IN (2, NULL), 1 NOT IN (\n(None, 1, None, None, 1, 0)"
+  },
+  "sql02": {
+    "output": "-- SELECT COUNT(*), COUNT(x), AVG(x), SUM(x), TOTAL(x)\n(3, 2, 2.0, 4, 4.0)\n-- SELECT SUM(x), TOTAL(x), COUNT(*) FROM (SELECT 1 AS x WHERE \n(None, 0.0, 0)"
+  },
+  "sql03": {
+    "output": "-- SELECT 7 / 2, 7 / 2.0, -7 / 2, 7 % 3, -7 % 3, CAST(7 AS REAL\n(3, 3.5, -3, 1, -1, 3.5, None)"
+  },
+  "sql04": {
+    "output": "-- SELECT x FROM t ORDER BY x;\n(None,)\n(1,)\n(3,)\n-- SELECT x FROM t ORDER BY x DESC;\n(3,)\n(1,)\n(None,)"
+  },
+  "sql05": {
+    "output": "-- SELECT typeof(a), typeof(b), a, b FROM t;\n('integer', 'text', 5, '5')\n('integer', 'text', 5, '5')\n('text', 'text', 'abc', '1')"
+  },
+  "sql06": {
+    "output": "-- SELECT g, v, MAX(v) FROM s GROUP BY g;\n('a', 5, 5)\n('b', 2, 2)\n-- SELECT g, v, MIN(v) FROM s GROUP BY g;\n('a', 1, 1)\n('b', 2, 2)"
+  },
+  "sql07": {
+    "output": "-- SELECT 'a' = 'A', 'a' LIKE 'A', 'a' GLOB 'A', 'abc' LIKE 'a%\n(0, 1, 0, 1, 5, 'HéLLO')"
+  },
+  "sql08": {
+    "output": "-- SELECT COUNT(*) FROM u;\n(3,)\nERROR: IntegrityError: UNIQUE constraint failed: u.x"
+  },
+  "sql09": {
+    "output": "-- SELECT COUNT(*) FROM (SELECT NULL UNION SELECT NULL);\n(1,)\n-- SELECT COUNT(DISTINCT x), COUNT(x), COUNT(*) FROM (SELECT NU\n(0, 0, 2)"
+  },
+  "sql10": {
+    "output": "-- SELECT 1 = 1, 1 == 1, 2 = TRUE, 'true' = TRUE, typeof(1 = 1)\n(1, 1, 0, 0, 'integer', 'integer')"
+  }
+}
